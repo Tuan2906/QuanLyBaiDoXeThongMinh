@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+
+<tiles-definitions>
+    <definition name="baseLayout" template="/WEB-INF/layout/base.jsp">
+        <put-attribute name="title" value="" />
+        <put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
+        <put-attribute name="content" value="" />
+        <put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+        <put-attribute name="aside" value="/WEB-INF/layout/aside.jsp" />
+
+    </definition>
+    <definition name="home" extends="baseLayout">
+        <put-attribute name="title" value="Trang chủ" />
+        <put-attribute name="content" value="/WEB-INF/pages/index.jsp" />
+    </definition>
+    <definition name="chiTietbaiDo" extends="baseLayout">
+        <put-attribute name="title" value="Chi tiet bai do xe" />
+        <put-attribute name="content" value="/WEB-INF/pages/chiTietBaiDo.jsp" />
+    </definition>
+    <definition name="user" extends="baseLayout">
+        <put-attribute name="title" value="Thêm người dùng" />
+        <put-attribute name="content" value="/WEB-INF/pages/users.jsp" />
+    </definition>
+    <definition name="chodoxe" extends="baseLayout">
+        <put-attribute name="title" value="Chổ đổ xe" />
+        <put-attribute name="content" value="/WEB-INF/pages/chodoxe.jsp" />
+    </definition>
+    <definition name="chodoxeAdd" extends="baseLayout">
+        <put-attribute name="title" value="Thêm chổ đổ xe" />
+        <put-attribute name="content" value="/WEB-INF/pages/chodoxeAdd.jsp" />
+    </definition>
+    <definition name="chodoxeAddMany" extends="baseLayout">
+        <put-attribute name="title" value="Thêm nhiều chổ đổ xe" />
+        <put-attribute name="content" value="/WEB-INF/pages/chodoxeAddMany.jsp" />
+    </definition>
+    
+    
+    <definition name="baido" extends="baseLayout">
+        <put-attribute name="title" value="Quản trị bãi đổ xe" />
+        <put-attribute name="content" value="/WEB-INF/pages/baiDo.jsp" />
+    </definition>
+    <definition name="baiDo" extends="baseLayout">
+        <put-attribute name="title" value="Thêm sản phẩm" />
+        <put-attribute name="content" value="/WEB-INF/pages/BaiDoView.jsp" />
+    </definition>
+    <definition name="chiTietbaiDo" extends="baseLayout">
+        <put-attribute name="title" value="Chi tiet bai do xe" />
+        <put-attribute name="content" value="/WEB-INF/pages/chiTietBaiDo.jsp" />
+    </definition>
+    <definition name="khudoxeView" extends="baseLayout">
+        <put-attribute name="title" value="Trang khu do xe" />
+        <put-attribute name="content" value="/WEB-INF/pages/KhuDoXeView.jsp" />
+    </definition>
+     <definition name="khuDoXe" extends="baseLayout">
+        <put-attribute name="title" value="Thêm khu đỗ xe" />
+        <put-attribute name="content" value="/WEB-INF/pages/khuDoXe.jsp" />
+    </definition>
+     <definition name="chiTietKhuDoXeView" extends="baseLayout">
+        <put-attribute name="title" value="Trang khu do xe" />
+        <put-attribute name="content" value="/WEB-INF/pages/ChiTietKhuDoXeView.jsp" />
+    </definition>
+     <definition name="ChiTietKhuDoXe" extends="baseLayout">
+        <put-attribute name="title" value="Trang chi tiết khu đỗ xe" />
+        <put-attribute name="content" value="/WEB-INF/pages/ChiTietKhuDoXe.jsp" />
+    </definition>
+    <definition name="hoadon" extends="baseLayout">
+        <put-attribute name="title" value="Quản trị hóa đơn" />
+        <put-attribute name="content" value="/WEB-INF/pages/hoadon.jsp" />
+    </definition>
+    <definition name="hoadonAdd" extends="baseLayout">
+        <put-attribute name="title" value="Chi tiết hóa đơn" />
+        <put-attribute name="content" value="/WEB-INF/pages/hoadonAdd.jsp" />
+    </definition>
+    <definition name="stats" extends="baseLayout">
+        <put-attribute name="title" value="Thống kê" />
+        <put-attribute name="content" value="/WEB-INF/pages/stats.jsp" />
+    </definition>
+</tiles-definitions>
+

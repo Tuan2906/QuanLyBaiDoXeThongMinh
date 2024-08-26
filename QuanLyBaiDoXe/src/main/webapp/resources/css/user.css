@@ -1,0 +1,26 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 25, 2024, 10:44:41 PM
+    Author     : quang
+*/
+
+.page-container {
+    display: flex; /* Sắp xếp các liên kết trang thành hàng ngang */
+    overflow-x: auto; /* Cho phép cuộn ngang */
+    overflow-y: hidden; /* Ẩn cuộn dọc nếu có */
+    white-space: nowrap; /* Ngăn các phần tử xuống dòng */
+    padding: 0 5px; /* Thêm padding để tạo khoảng cách giữa các nút */
+    max-width: 100%; /* Đảm bảo phần tử không vượt quá chiều rộng chứa */
+}
+
+.page-item {
+    display: inline-block; /* Đảm bảo các liên kết trang không bị dàn trải */
+    margin: 0 2px; /* Khoảng cách giữa các liên kết trang */
+}
+
+#prevPage, #nextPage {
+    cursor: pointer; /* Hiển thị con trỏ chuột khi di chuột qua nút */
+}
