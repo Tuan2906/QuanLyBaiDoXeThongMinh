@@ -1,4 +1,3 @@
-Dưới đây là phiên bản hoàn chỉnh của tài liệu README cho dự án của bạn:
 
 ---
 
