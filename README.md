@@ -28,13 +28,16 @@ This project involves building a high-performance backend server for managing pa
    ```
 
 2. **Set Up the Environment:**
-   - Ensure you have JDK 11 or newer installed.
+   - Ensure you have JDK 15.
    - Configure your database and update the `application.properties` file with the correct database connection details.
 
 3. **Build and Run the Application:**
    ```bash
    ./mvnw clean install
-   ./mvnw spring-boot:run
+   cp target/QuanLyBaiDoXe.war /opt/tomcat/webapps/
+   cd /opt/tomcat/bin
+   ./catalina.sh start
+
    ```
 
 ## API Endpoints
