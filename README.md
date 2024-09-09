@@ -41,13 +41,6 @@ This project involves building a high-performance backend server for managing pa
    ```
 
 
-## Usage Guide
-
-1. **Retrieve Parking Lot Information:** Use the GET `/parking-lots` endpoint to get information about parking lots. Apply filters and search parameters as needed.
-2. **Manage Reservations:** Use GET and POST `/reservations` to handle parking spot registrations, and DELETE `/reservations/{id}` to cancel them.
-3. **Manage Vehicles:** Use GET, POST, and PATCH endpoints for managing vehicle information.
-4. **Email Notifications:** Send or schedule email notifications using the respective endpoints.
-
 ## Contributing
 
 If you would like to contribute to the project, please fork the repository and submit a pull request. Contributions are welcome!
