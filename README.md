@@ -40,17 +40,6 @@ This project involves building a high-performance backend server for managing pa
 
    ```
 
-## API Endpoints
-
-- **GET /parking-lots:** Retrieve information about parking lots.
-- **GET /reservations:** Retrieve information about parking spot reservations.
-- **POST /reservations:** Create a new parking spot reservation.
-- **DELETE /reservations/{id}:** Cancel a parking reservation.
-- **GET /vehicles:** Retrieve registered vehicle information.
-- **POST /vehicles:** Register a new vehicle.
-- **PATCH /vehicles/{id}:** Update vehicle information.
-- **POST /notifications:** Send an email notification.
-- **POST /schedule-notifications:** Schedule email notifications.
 
 ## Usage Guide
 
