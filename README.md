@@ -24,7 +24,7 @@ This project involves building a high-performance backend server for managing pa
 1. **Clone the Project:**
    ```bash
    git clone https://github.com/Tuan2906/SmartParkingLotManagement.git
-   cd SmartParkingLotManagement
+   cd QuanLyBaiDoXe
    ```
 
 2. **Set Up the Environment:**
